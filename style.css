@@ -1,0 +1,37 @@
+html, body {
+    display: block;
+    padding: 0;
+    background-color: rgb(38, 34, 44);
+    color: white;
+}
+#corona_stats {
+    color: white;
+    font-family: Arial;
+    font-size: 150%;
+}
+
+h1, #result {
+    font-size: 200%;
+    font-family: Arial;
+    padding: 10px;
+}
+#values input, button {
+    margin: 5px;
+    padding: 15px;
+    width: 35%;
+    height: 4%;
+    border-radius: 10px;
+    border-style: none;
+    outline: none;
+    font-size: 100%;
+}
+#submit {
+    color: white;
+    display: flex;
+    background-image: linear-gradient(to right, rgb(120, 120, 204), rgb(58, 157, 167));
+    justify-content: center;
+    align-items: center;
+} 
+#submit:active {
+    background-image: linear-gradient(to right, rgb(153, 153, 255), rgb(109, 199, 209));
+}
