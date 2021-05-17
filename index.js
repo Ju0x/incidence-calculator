@@ -16,7 +16,7 @@ $(document).ready(
             ).then(
                 function(text) {
                     var obj = JSON.parse(text);
-                    $("#cases").html("Cases (currently): " + obj.delta.cases)
+                    $("#cases").html("Cases (More than yesterday): " + obj.delta.cases)
                     $("#total").html("Cases (total): " + obj.cases)
                     $("#incidence").html("Weekly-Incidence: " + Math.round(obj.weekIncidence))
                 }
