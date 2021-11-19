@@ -42,7 +42,7 @@ $(document).ready(
         );
         
         function calculate_incidence(mo, tu, we, th, fr, sa, so, ppl) {
-            return Math.round(((mo + tu + we + th + fr+ sa + so) / ppl) * 100000)
+            return Math.round(((mo + tu + we + th + fr+ sa + so) / ppl) * 10000000) / 100
         }
         
     }
